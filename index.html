@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minuman Segar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Minuman Segar</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Tentang Kami</a></li>
+                <li><a href="#products">Produk</a></li>
+                <li><a href="#contact">Hubungi Kami</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="about">
+        <h2>Tentang Kami</h2>
+        <p>Selamat datang di Minuman Segar, tempatnya untuk menemukan minuman segar berkualitas tinggi.</p>
+    </section>
+    <section id="products">
+        <h3>Produk Kami</h3>
+        <div class="product-container">
+            <div class="product" id="product1">
+                <img src="20240206_110448_700.jpg" alt="Product 1">
+                <h3>Jus Jeruk Segar</h3>
+                <p>Rasa segar dari jeruk pilihan. <br> <span>Harga: Rp0</span></p>
+                <button onclick="addToCart('Jus Jeruk Segar')">Tambah ke Keranjang</button>
+            </div>
+            <div class="product" id="product2">
+                <img src="20240206_110448_700.jpg" alt="Product 2">
+                <h3>Teh Hijau Dingin</h3>
+                <p>Nikmati teh hijau dingin yang menyegarkan. <br> <span>Harga: Rp0</span></p>
+                <button onclick="addToCart('Teh Hijau Dingin')">Tambah ke Keranjang</button>
+            </div>
+            <div class="product" id="product1">
+                <img src="20240206_110448_700.jpg" alt="Product 1">
+                <h3>Jus Jeruk Segar</h3>
+                <p>Rasa segar dari jeruk pilihan. <br> <span>Harga: Rp0</span></p>
+                <button onclick="addToCart('Jus Jeruk Segar')">Tambah ke Keranjang</button>
+            </div>
+            <div class="product" id="product2">
+                <img src="20240206_110448_700.jpg" alt="Product 2">
+                <h3>Teh Hijau Dingin</h3>
+                <p>Nikmati teh hijau dingin yang menyegarkan. <br> <span>Harga: Rp0</span></p>
+                <button onclick="addToCart('Teh Hijau Dingin')">Tambah ke Keranjang</button>
+            </div>
+            <div class="product" id="product1">
+                <img src="20240206_110448_700.jpg" alt="Product 1">
+                <h3>Jus Jeruk Segar</h3>
+                <p>Rasa segar dari jeruk pilihan. <br> <span>Harga: Rp0</span></p>
+                <button onclick="addToCart('Jus Jeruk Segar')">Tambah ke Keranjang</button>
+            </div>
+            <div class="product" id="product2">
+                <img src="20240206_110448_700.jpg" alt="Product 2">
+                <h3>Teh Hijau Dingin</h3>
+                <p>Nikmati teh hijau dingin yang menyegarkan. <br> <span>Harga: Rp0</span></p>
+                <button onclick="addToCart('Teh Hijau Dingin')">Tambah ke Keranjang</button>
+            </div>
+            <div class="product" id="product1">
+                <img src="20240206_110448_700.jpg" alt="Product 1">
+                <h3>Jus Jeruk Segar</h3>
+                <p>Rasa segar dari jeruk pilihan. <br> <span>Harga: Rp0</span></p>
+                <button onclick="addToCart('Jus Jeruk Segar')">Tambah ke Keranjang</button>
+            </div>
+            <div class="product" id="product2">
+                <img src="20240206_110448_700.jpg" alt="Product 2">
+                <h3>Teh Hijau Dingin</h3>
+                <p>Nikmati teh hijau dingin yang menyegarkan. <br> <span>Harga: Rp0</span></p>
+                <button onclick="addToCart('Teh Hijau Dingin')">Tambah ke Keranjang</button>
+            </div>
+            <div class="product" id="product2">
+                <img src="20240206_110448_700.jpg" alt="Product 2">
+                <h3>Teh Hijau Dingin</h3>
+                <p>Nikmati teh hijau dingin yang menyegarkan. <br> <span>Harga: Rp0</span></p>
+                <button onclick="addToCart('Teh Hijau Dingin')">Tambah ke Keranjang</button>
+            </div>
+            <!-- Tambahkan produk lain di sini -->
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Hubungi Kami</h2>
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Nama Anda">
+            <input type="email" id="email" placeholder="Email Anda">
+            <textarea id="message" placeholder="Pesan Anda"></textarea>
+            <button type="submit">Kirim</button>
+        </form>
+    </section>
+    <ul id="cart"></ul>
+    <script src="script.js"></script>
+</body>
+</html>
